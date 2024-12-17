@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body id="LOL">
+    
+
+
+<script >
+const lol = document.getElementById("LOL");
+
+const kodas = () => {
+    const code = prompt("Koks kodas?");
+
+    switch (code) {
+        case "Kalėdos":
+            lol.style.backgroundImage = "url('dance.gif')";
+            break;
+        default:
+            alert("Neteisingai, bandyk dar kart");
+            kodas();
+            break;
+    }
+};
+
+kodas();
+
+
+</script>
+</body>
+</html>
