@@ -11,7 +11,7 @@ next.addEventListener("click", () => {
     
     if(window.getComputedStyle(cover).backgroundImage === "url('doYou.jpg')") {
     } else if (currentZIndex === '2') {
-        cover.style.zIndex = '-1'; 
+        cover.style.zIndex = '-1';
     }
 
     if(decode.textContent === "S29kYXM6IEthbMSXZG9z") {
