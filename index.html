@@ -5,29 +5,50 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/84b529932c.js" crossorigin="anonymous"></script>
 </head>
 <body>
+    <!-- https://www.youtube.com/watch?v=sHK1im463EQ -->
+    <button id="prev-btn">
+        <i class="fa-solid fa-arrow-left"></i>
+    </button>
 
 
-    <main id="container">
-        <button id="back-btn">BACK</button>
-        <div id="atvirukas">
-            <button id="cover"></button>
-            <div id="turinys">
-                <h2 id="RickRoll">Nagli,</h2>
-                <p id="decode">Pasiekė mane džiugi žinutė:
-                    Kalėda – tuoj vėl namučiuos.
-                    Tad jau ropškis iš lovytės
-                    Ir ieškok žalios eglytės.
-                    Nuotaikas dar pataisyki
-                    Ir šventę linksmą pasitiki.
-                    Puikių Kalėdų!</p>
-                <p id="help"></p>
+    <div id="book" class="book">
+        <!-- Paper 1 -->
+        <div id="p1" class="paper">
+            <div class="front">
+                <div id="f1" class="front-content">
+                    <h1></h1>
+                </div>
+            </div>
+            <div class="back">
+                <div id="b1" class="back-content">
+                    <h1></h1>
+                </div>
             </div>
         </div>
-        <button id="next-btn">NEXT</button>
-    </main>
+        <!-- Paper 2 -->
+        <div id="p2" class="paper">
+            <div class="front">
+                <div id="f2" class="front-content">
+                    <h3>Štai atėjo vėl Kalėdos! 
+                        Teišnyksta visos bėdos, 
+                        Lai pražūva skurdo baimė, 
+                        Ir visiems ateina laimė! </h3>
+                </div>
+            </div>
+            <div class="back">
+                <div id="b2" class="back-content">
+                    <h1></h1>
+                </div>
+            </div>
+        </div>
+    </div>
 
+    <button id="next-btn">
+        <i class="fa-solid fa-arrow-right"></i>
+    </button>
     <script src="script.js"></script>
 </body>
 </html>
